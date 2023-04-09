@@ -1,0 +1,72 @@
+header{
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 30px;
+}
+table{
+    text-align: right;
+    margin-top: 70px;
+    margin-left: 240px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    font-style: inherit solid;
+    border-collapse: collapse;
+    font-weight: bold;
+    margin-bottom: 60px;
+}
+.head{
+    text-align: left;
+    padding-right: 80px;
+    padding-bottom: 10px;
+}
+#left{
+    text-align: right;
+    padding-left: 80px;
+    padding-bottom: 10px;
+}
+#d0, #d1{
+    background-color: white;
+    padding-left: 80px;
+}
+#d2{
+    background-color: rgb(248, 225, 212);
+}
+#d3{
+    background-color: rgb(248, 213, 193);
+}
+#d4{
+    background-color: rgb(253, 209, 184);
+}
+#d5{
+    background-color: rgb(253, 196, 163);
+}
+#d6{
+    background-color: rgb(255, 196, 161);
+}
+#d7{
+    background-color: rgb(253, 188, 150);
+}
+#d8{
+    background-color: rgb(250, 180, 140);
+}
+#d10{
+    background-color: rgb(245, 176, 137);
+}
+#d12{
+    background-color: rgb(241, 171, 129);
+}
+#d14{
+    background-color: rgb(252, 164, 110);
+}
+#d16{
+    background-color: rgb(253, 141, 71);
+}
+#d20{
+    background-color: rgb(252, 111, 55);
+}
+#d22{
+    background-color: rgb(255, 100, 38);
+}
+#d24{
+    background-color: rgb(255, 87, 21);
+}

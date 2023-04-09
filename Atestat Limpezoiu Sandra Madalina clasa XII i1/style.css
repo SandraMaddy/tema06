@@ -1,0 +1,265 @@
+* { padding: 0; margin: 0; }
+
+body {
+
+float:center;
+font-family:Palatino Linotype;
+font-size: 14px;
+
+
+background-image: url("back.jpg");
+background-position:center;
+background-attachment:fixed;
+}
+a
+{text-decoration:none;
+color:rgb(203, 195, 209);
+}
+a:hover
+{
+text-decoration:none;
+}
+#incadrare_pagina_mijloc
+{
+ margin: 0 auto;
+ width: 950px;
+}
+.shadows
+{
+-o-box-shadow: 2px 2px 6px black;
+-icab-box-shadow: 2px 2px 6px black;
+-khtml-box-shadow: 2px 2px 6px black;
+-moz-box-shadow: 2px 2px 6px black;
+-webkit-box-shadow: 2px 2px 6px black;
+box-shadow: 2px 2px 6px black;
+}
+.shadows_logo
+{
+-o-box-shadow: 2px 2px 6px black;
+-icab-box-shadow: 2px 2px 6px black;
+-khtml-box-shadow: 2px 2px 6px black;
+-moz-box-shadow: 2px 2px 6px black;
+-webkit-box-shadow: 2px 2px 6px black;
+box-shadow: 2px 2px 6px black;
+-moz-border-radius: 95px;
+-webkit-border-radius: 95px;
+border-radius: 95px;
+}
+.ie_no_shadow
+{
+filter:progid:DXImageTransform.Microsoft.Shadow(color='#2E2F2F',direction='120',strength='1');
+}
+/*------ANTET---------------------------------------------*/
+#header
+{
+width:950px;
+background-color:#D8BFD8;
+height:50px;
+margin: 20px 0px 2px 0px;
+
+-moz-border-radius-topleft: 95px;
+-webkit-border-top-left-radius: 95px;
+border-top-left-radius: 95px;
+-moz-border-radius-topright: 95px;
+-webkit-border-top-right-radius: 95px;
+border-top-right-radius: 95px;
+
+}
+/*-----MENIU----------------------------------------------*/
+#menu
+{
+width:950px;
+height:30px;
+background-color: #DDA0DD;
+background-repeat:repeat-x;
+margin:0px 11px 15px 0px;
+text-align:center;
+}
+
+#menu a{
+text-decoration:none;
+color:white;
+font-size:17px;
+padding:7px 11px;
+}
+#menu a:hover {
+background-color: #9370DB;
+font-size:17px;
+padding:7px 11px;
+text-decoration:underline;
+}
+li{
+list-style-type:none;
+}
+ul#nav
+{
+width: 1020px;
+height: 30px;
+text-align:center;
+margin-left:-5px;
+}
+ul#nav li{
+position: relative;
+float: left;
+width: auto;
+line-height:20px;
+height: 30px;
+}
+ul#nav li a
+{
+display: block;
+float: left;
+width: auto;
+padding:5px;
+}
+ul#nav li a:hover
+{
+padding:5px;
+}
+ul#nav li ul
+{
+display: none;
+}
+ul#nav li:hover ul
+{
+background-color: #9370DB;
+display:block;
+position:absolute;
+z-index:350;
+top:100%;
+float: center;
+width: 250px;
+height: auto;
+margin: 0;
+padding: 0;
+text-align: center;
+font-size: 17px;
+border-top:1px solid #9370DB;
+}
+ul#nav li:hover ul li
+{
+width: 250px;
+height:auto;
+border-bottom:1px solid #EEF3F8;
+display:block;
+}
+ul#nav li:hover ul li a
+{
+display: block;
+margin: 0;
+width:250px;
+padding: 0;
+height:100%;
+line-height: 1.5em;
+}
+ul#nav li:hover ul li a:hover
+{
+display: block;
+margin: 0;
+padding: 0;
+height:100%;
+width:250px;
+line-height: 1.5em;
+background-color: #9370DB;
+font-size:17px;
+}
+
+
+.border_left
+{
+border-left: 2px solid #F3F1E1;
+}
+/*---CONTINUT------------------------------------------------*/
+#content
+{
+width:930px;
+height:auto;
+background-color:#D8BFD8;
+padding:10px;
+float:right;
+padding-bottom:30px;
+}
+#content h3
+{
+padding:2px;
+font-size: 11 px;
+}
+#linie_stanga
+{
+width:200px;
+float:left;
+margin: 0 25px 0 0;
+}
+#stanga a , img ,src
+{
+text-decoration:none;
+}
+
+#stanga
+{
+width:200px;
+height:auto;
+border-radius: 10px; 
+-moz-border-radius: 10px; 
+-webkit-border-radius: 10x; 
+
+}
+#stanga h1
+{
+font-size:14px;
+font-weight:bold;
+background-color:#990000;
+color:#ffffff;
+display:block;
+text-align:center;
+border-radius: 10px; 
+-moz-border-radius: 10px; 
+-webkit-border-radius: 10x; 
+}
+#stanga h2
+{
+padding:2px;
+font-size:13px;
+
+}
+#stanga h3
+{
+padding:2px;
+font-size:11px;
+font-style:italic; 
+}
+
+/*---ARTICOL------------------------------------------------*/
+#articol
+{
+float:right;
+width:700px;
+height:auto;
+margin: 5px 0px 5px 0px;
+border-radius: 10px; 
+-moz-border-radius: 10px; 
+-webkit-border-radius: 10x; 
+}
+#articol h1
+{
+font-size:20px;
+font-weight:bold;
+background-color:#9BB947;
+color:white;
+display:block;
+text-align:center;
+border-radius: 10px; 
+-moz-border-radius: 10px; 
+-webkit-border-radius: 10x; 
+}
+#articol h2
+{
+float:right;
+font-size:11px;
+color:#330033 ;
+}
+#articol h4
+{
+padding:10px;
+font-size:14px;
+}

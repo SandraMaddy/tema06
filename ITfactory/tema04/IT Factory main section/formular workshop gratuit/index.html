@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Webinar Frontend Developer – CRM – IT Factory</title>
+        <link rel="stylesheet" href="./css/style.css">
+    </head>
+    <body>
+        <div class="left-section">
+            <!--Title section-->
+            <section class="Title">
+                <h3 align="center">WORKSHOP GRATUIT</h3>
+                <h5 align="center">Introducere în Web development<br>
+                    JavaScript | HTML | CSS</h5><br>
+            </section><br>
+            <!--Options list section-->
+            <div class="left-side">
+                <section>
+                    <ul class="sidebar-list">
+                        <li><span><b>Află dacă domeniul IT este pentru tine</b></span></li>
+                        <li><span><b>Vom scrie împreună primele tale linii de cod</b></span></li>
+                        <li><span><b>Cadou: curs de programare pentru toți participanții</b></span></li>
+                    </ul>
+                </section><br>
+                <!--Description section-->
+                <section>
+                    <p><b>Profită de această oportunitate, fă primul pas înspre viitoarea ta carieră!</b></p>
+                    <p><b>Workshop-ul va fi online și complet gratuit.</b></p>
+                    <p><b>Ești binevenit chiar dacă nu ai deloc experiență, vom porni de la 0.</b></p>
+                    <p><b>Vei avea ocazia să verifici dacă înțelegi și dacă îți place această lume a programării,
+                        îndrumat de un trainer specializat.</b>
+                    </p>
+                    <p><b>La final, primești garantat cursul “Primii pași în programare – comparație practică între
+                        Java și Python”, dezvoltat chiar de co-fondatorul companiei, Andy.</b>
+                    </p>
+                </section>
+            </div>
+        </div>
+        <!--Aside section-->       
+        <aside>
+            <div class="right-section">
+                <img src="./img/woman.jpg" alt="woman"><br>
+                <!--Form section-->
+                <div id="form-area" class="flex ">
+                    <form action="get" method="GET" class="uni flex col gap-big">
+                        <legend><h3><b>Rezervă locul gratuit</b></h3></legend><br>
+                        <div class="flex row gap-big">
+                            <label class="label-space flex ju-start" for="email"><b>Email*</b></label>
+                            <input type="email" id="email" name="email" required>
+                        </div><br>
+                        <div class="flex row gap-big">
+                            <label class="label-space flex ju-start" for="lastname"><b>Nume*</b></label>
+                            <input type="text" id="lastname" name="lastname" required>
+                        </div><br>
+                        <div class="flex row gap-big">
+                            <label class="label-space flex ju-start" for="firstname"><b>Prenume*</b></label> 
+                            <input type="firstname" id="firstname" name="firstname" required>
+                        </div><br>
+                        <div class="flex row gap-big">
+                            <label class="label-space flex ju-start" for="tel"><b>Telefon*</b></label>
+                            <input type="tel" id="tel" name="tel" required>
+                        </div><br>
+                        <div class="flex row gap-big">
+                            <label class="label-space flex ju-start" for="intrebare_informativa"><b>Ai mai scris cod?*</b></label>
+                            <select name="intrebare_informativa" id="intrebare_informativa" required>
+                                <option></option>
+                                <option>Nu am avut ocazia încă</option>
+                                <option>Am mai scris cod</option>
+                            </select>
+                        </div><br>
+                        <div class="flex row gap-big">
+                            <label class="label-space flex ju-start" for="acord"><b>Accept termenii de<br> prelucrare a datelor cu<br> caracter personal*</b></label>
+                            <input type="checkbox" id="acord" name="acord" value="1" required><br>
+                        </div><br>
+                        <div class="form-example" align="center">
+                            <legend><b>Atenție! Bifează MINIM o dată</b></legend><br>
+                            <input type="submit" id="submit" name="submit" value="Rezervă locul gratuit">
+                        </div><br>
+                    </form>
+                </div>
+            </div>
+        </aside>  
+    </body>
+</html>
+

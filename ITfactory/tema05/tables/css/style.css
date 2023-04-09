@@ -1,0 +1,22 @@
+table{
+   border-collapse: collapse;
+   font-family: 'Times New Roman', Times, serif;
+   font-size: 20px;
+   text-align: left;
+   margin-left: 350px;
+   margin-top: 40px;
+}
+.gr-row{ 
+    background-color: rgb(37, 253, 152); 
+}
+.wh-row{ 
+    background-color: rgb(250, 241, 234);
+}
+header{
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 30px;
+}
+td{
+    padding: 10px 100px 10px 10px;
+}
