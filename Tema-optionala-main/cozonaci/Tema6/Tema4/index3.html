@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Webinar</title>
+    <meta name="description" content="Signup form for IT Factory Frontend">
+    <link rel="stylesheet" type="text/css" href="css/style3.css">
+    <link rel="stylesheet" type="text/css" href="css/meniu.css">
+  </head>
+  <body>
+    <header>
+      <div class="logo">
+        <img src="img/fact.jpg" alt="Logo">
+    </div>
+      <nav>
+        <ul>
+            <li><a href="#"><b>Acasa</b></a></li>
+            <li><a href="index2.html"><b>Despre noi</b></a></li>
+            <li><a href="index3.html"><b>Curs Gratuit</b></a></li>
+            <li><a href="#"><b>Contact</b></a></li>
+        </ul>
+    </nav>
+    </header>
+    <span>
+    <img src="img/web.jpg" alt="Webinar">
+    </span>
+    <style>
+        .form-wrapper {
+          float: right;
+          width: 40%;
+        }
+    </style>
+    <div>
+        <img src="img/wom.jpg" alt="Webinar">
+    </div>
+    <main>
+        <form action="submitData" method="post" class="uni flex col gap-big card">
+          <div class="flex row gap-big">
+            <label class="flex ju-start label-space">
+              <b>Nume<a>*</a></b>
+            </label>
+            <input type="text" id="name" name="name" required>
+          </div>
+          <div class="flex row gap-big">
+            <label class="flex ju-start label-space">
+              <b>Email<a>*</a></b>
+            </label>
+            <input type="email" id="email" name="email" required>
+            <p>[Te rugăm să te asiguri că email-ul este corect]</p>
+          </div>
+          <div class="flex row gap-big">
+            <label class="flex ju-start label-space">
+              <b>Telefon<a>*</a></b>
+            </label>
+            <input type="number" id="phone" name="phone" required>
+            <p>[Te rugăm să te asiguri că numarul este corect]</p>
+          </div>
+          <div class="flex row gap-big">
+            <label class="flex ju-start label-space">
+              <b>Varsta<a>*</a></b>
+            </label>
+            <input type="number" id="age" name="age" required>
+          </div>
+          <div class="flex row gap-big">
+            <label class="flex ju-start label-space">
+              <b>Oras<a>*</a></b>
+            </label>
+            <input type="text" id="city" name="city" required>
+          </div>
+          <div class="flex row gap-big">
+            <label class="flex ju-start label-space">
+              <b>Ai mai scris cod?<a>*</a></b>
+            </label>
+                <select id="cod" name="cod" required>
+                  <option value="">-- Selectați --</option>
+                  <option value="male">Nu am avut ocazia inca</option>
+                  <option value="female">Am mai scris cod</option>
+                </select>
+                <br><br><br>
+          </div>
+          <div class="flex row gap-big">
+            <label class="flex ju-start label-space">
+              <b>Sunt de acord cu termenii de prelucrare a datelor cu caracter personal*<a>*</a></b>
+            </label>
+            <input type="checkbox" id="agree2" name="agree2" value="1" required>
+          </div><br><br> 
+            <p><b>Atenție! Bifează MINIM o dată</b></p>
+            
+              <button type="submit">Rezerva locul gratuit</button>
+          </div>
+        </form>
+      </div>
+    </main>
+    <footer>
+      <p>Copyright © IT Factory</p>
+    </footer>
+  </body>
+</html>

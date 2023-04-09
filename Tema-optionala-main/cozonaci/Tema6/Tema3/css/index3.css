@@ -1,0 +1,105 @@
+body{
+  width: 1200px;
+}
+.container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: auto;
+  gap: 20px;
+  margin: 50px;
+  float:right;
+  width: 1200px;
+}
+
+.left {
+  grid-column: 1;
+  float:right;
+}
+
+.right {
+  grid-column: 2;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  float:right;
+}
+
+div img {
+  width: 400px;
+  height: auto;
+  float: right;
+  margin-right: 0px;
+  margin-top: -700px;
+  z-index: 1;
+
+}
+span img{
+  width: 100%;
+  max-width: 750px;
+  height: auto;
+}
+
+form {
+  margin-top: -300px;
+  width: 50%;
+  max-width: 300px;
+  margin-right: 50px;
+  text-align: center;
+  float: right;
+}
+
+label {
+  display: block;
+  text-align:start;
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+  margin-right: 50px;
+}
+
+div a{
+  color: red;
+  margin-right: 50px;
+}
+
+input {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  border-radius: 5px;
+  border: none;
+  margin-bottom: 20px;
+  font-size: 1.2rem;
+  margin-right: 50px;
+}
+
+button {
+  background-color: grey;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 10px;
+  font-size: 1.2rem;
+  cursor: pointer;
+}
+input[type="text"],
+input[type="email"],
+input[type="phone"],
+input[type="number"] {
+  background-color: #fff;
+  color: #333;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  padding: 8px;
+  margin-bottom: 10px;
+}
+
+.form-exemple {
+  display:contents;
+  align-items:start;
+  margin-bottom: 10px;
+}
+
+.form-exemple input[type="checkbox"] {
+  justify-self: end;
+}

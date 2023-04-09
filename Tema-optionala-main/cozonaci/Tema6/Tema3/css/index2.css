@@ -1,0 +1,40 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.5;
+    background-image: url(img/img2.jpg);
+    width: 1200px;
+    font-size: large;
+
+  }
+
+body h1{
+    color: orange;
+    display: block;
+    margin-left:20%;
+    margin-right: auto;
+    text-align: center;
+}
+body p{
+    display: block;
+    margin-left:20%;
+    margin-right: auto;
+    text-align: center;
+    font-style: oblique;
+}
+section h2{
+    color: orange;
+    display: block;
+    margin-left:20%;
+    margin-right: auto;
+    text-align: center; 
+}
+section li{
+    display: inline-block;
+    text-align: center;
+    margin: 0 10px;
+    max-width: 100%;
+    height: auto;
+    font-size: 16px;
+    margin-top: 10px;
+
+}

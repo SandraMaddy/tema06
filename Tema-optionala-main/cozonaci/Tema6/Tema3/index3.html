@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Webinar</title>
+    <meta name="description" content="Signup form for IT Factory Frontend">
+    <link rel="stylesheet" type="text/css" href="css/index3.css">
+  </head>
+  <body>
+    <span>
+    <img src="img/web.jpg" alt="Webinar">
+    </span>
+    <style>
+        .form-wrapper {
+          float: right;
+          width: 40%;
+        }
+    </style>
+    <div>
+        <img src="img/wom.jpg" alt="Webinar">
+    </div>
+    <main>
+        <form>
+          <div class="form-group">
+            <label for="name"><b>Nume<a>*</a></b></label>
+            <input type="text" id="name" name="name" required>
+          </div>
+          <div class="form-group">
+            <label for="email"><b>E-mail<a>*</a></b></label>
+            <input type="email" id="email" name="email" required>
+            <p>[Te rugăm să te asiguri că email-ul este corect]</p>
+          </div>
+          <div class="form-group">
+            <label for="phone"><b>Telefon<a>*</a></b></label>
+            <input type="number" id="phone" name="phone" required>
+            <p>[Te rugăm să te asiguri că numarul este corect]</p>
+          </div>
+          <div class="form-group">
+            <label for="age"><b>Vârstă<a>*</a></b></label>
+            <input type="number" id="age" name="age" required>
+          </div>
+          <div class="form-group">
+            <label for="city"><b>Oraș<a>*</a></b></label>
+            <input type="text" id="city" name="city" required>
+          </div>
+          <div class="form-group">
+                <label for="cod"><b>Ai mai scris cod?<a>*</a></b></label>
+                <select id="cod" name="cod" required>
+                  <option value="">-- Selectați --</option>
+                  <option value="male">Nu am avut ocazia inca</option>
+                  <option value="female">Am mai scris cod</option>
+                </select>
+                <br><br><br>
+          </div>
+          <div class="form-exemple">
+            <label for="agree2"><b>Sunt de acord cu termenii de prelucrare a datelor cu caracter personal<a>*</a></b></label>
+            <input type="checkbox" id="agree2" name="agree2" value="1" required>
+          </div>
+            <p><b>Atenție! Bifează MINIM o dată</b></p>
+              <button type="submit">Rezerva locul gratuit</button>
+          </div>
+        </form>
+      </div>
+    </main>
+  </body>
+</html>
